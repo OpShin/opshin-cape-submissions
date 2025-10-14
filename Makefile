@@ -1,0 +1,2 @@
+factorial:
+	uvx --python 3.13 --from git+https://github.com/opshin/opshin@db8a9858d453ec625e2a3ce1be98130cf20abbb2  opshin compile src/factorial/contract.py --lib factorial -fno-unwrap-input -fno-wrap-output -funique-variable-names -O3
